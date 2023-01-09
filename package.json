@@ -7,7 +7,9 @@
     "@emotion/styled": "^11.10.5",
     "@fullcalendar/core": "^6.0.2",
     "@fullcalendar/daygrid": "^6.0.2",
+    "@fullcalendar/interaction": "^6.0.2",
     "@fullcalendar/list": "^6.0.2",
+    "@fullcalendar/react": "^6.0.2",
     "@fullcalendar/timegrid": "^6.0.2",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.3",
@@ -22,6 +24,7 @@
     "@testing-library/user-event": "^13.5.0",
     "chart.js": "^3.9.1",
     "formic": "^0.0.10",
+    "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pro-sidebar": "^0.7.1",
@@ -31,7 +34,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "PORT=5000 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
