@@ -27,7 +27,7 @@ const App = () => {
     <ThemeProvider  theme={theme}>
       <CssBaseline />
       <div className='app'>
-        <Sidebar/>
+        <Sidebar height='100%'/>
         <main className='content'>
           <Topbar/>
           <Routes>
