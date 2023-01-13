@@ -31,7 +31,7 @@ const App = () => {
         <main className='content'>
           <Topbar/>
           <Routes>
-            <Route path='/' element={<DashBoard/>} />
+            <Route path='/react-Dashboard' element={<DashBoard/>} />
             <Route path='/team' element={<Team/>} />
             <Route path='/contacts' element={<Contacts/>} />
             <Route path='/invoices' element={<Invoices/>} />
